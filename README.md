@@ -31,5 +31,3 @@ python manage.py runserver 0.0.0.0:8000
 http://localhost:8000/admin/.
 
 [Read more on the wagtail docs](http://docs.wagtail.io/en/v1.13.1/)
-
-*you may need to run ```   sudo chown -R $USER:$USER . ``` if you create a wagtail project from within docker
