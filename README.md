@@ -8,17 +8,20 @@ Simple container to run wagtail.
 
 ### Usage
 
-```
+```bash
 git clone https://github.com/jersonmr/wagtail.git
-docker-compose up -d```
+docker-compose up -d
+```
 
 SSH to the web container
 
-``` docker exec web bash  ```
-
-
-Inside container
+```bash
+docker exec web bash  
 ```
+
+
+## Inside container
+```bash
 wagtail start miweb
 cd miweb
 python manage.py migrate
