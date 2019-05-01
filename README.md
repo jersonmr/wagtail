@@ -20,14 +20,19 @@ docker-compose exec web bash
 ```
 
 
-## Inside container
+## Inside container (unica ves)
 ```bash
 wagtail start miweb
 cd miweb
 python manage.py migrate
 python manage.py createsuperuser
+
+## run app
+```bash
+cd miweb
 python manage.py runserver 0.0.0.0:8000
 ```
+
 
 ## Bowser
 
