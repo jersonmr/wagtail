@@ -16,7 +16,7 @@ docker-compose up -d
 SSH to the web container
 
 ```bash
-docker exec web bash  
+docker-compose exec web bash  
 ```
 
 
