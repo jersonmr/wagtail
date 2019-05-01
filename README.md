@@ -4,15 +4,13 @@ Simple container to run wagtail.
 - Python 3
 - Wagtail:latest
 
+
+
 ### Usage
 
-Clone this repo. If you have a wagtail project already, clone into the repo root eg ```./mysite```
-
-If you are starting a new site:
-
-Start the containers
-
-``` docker-compose up -d```
+```
+git clone https://github.com/jersonmr/wagtail.git
+docker-compose up -d```
 
 SSH to the web container
 
