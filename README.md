@@ -26,6 +26,7 @@ wagtail start miweb
 cd miweb
 python manage.py migrate
 python manage.py createsuperuser
+```
 
 ## run app
 ```bash
